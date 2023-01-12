@@ -8,9 +8,21 @@ body {
   font-size: 16px;
   font-family: "Raleway", sans-serif;
 }
-.container {
-  margin-top: 10px;
+
+@media (min-width: 40em) {
+  .container {
+    margin-top: 10px;
+  }
 }
+
+@media (min-width: 62em) {
+  .container {
+    margin-top: 10px;
+    width: 60%;
+    height: auto;
+  }
+}
+
 .card {
   background-color: #660066;
   color: white;
@@ -117,7 +129,7 @@ img {
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
-  background-color: #777;
+  background-color: white;
 }
 .carousel-item > img {
   position: absolute;
