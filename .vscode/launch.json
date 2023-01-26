@@ -1,0 +1,11 @@
+{
+    "configurations": [
+
+        {
+            "type": "chrome",
+            "name": "s",
+            "request": "launch",
+            "url": ""
+        }
+    ]
+}
