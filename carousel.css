@@ -7,10 +7,6 @@ body {
   background: #f9f9f9;
   font-size: 16px;
   font-family: "Raleway", sans-serif;
-
-  height: 100vh;
-  display: grid;
-  place-items: center;
 }
 
 @media (min-width: 40em) {

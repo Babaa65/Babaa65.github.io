@@ -6,6 +6,14 @@
   background-repeat: no-repeat;
 }
 
-.zone {
-  padding-top: 12em;
+@media (min-width: 40em) {
+  .zone {
+    padding-top: 12em;
+  }
+}
+
+@media (min-width: 62em) {
+  .zone {
+    padding-top: 8em;
+  }
 }
