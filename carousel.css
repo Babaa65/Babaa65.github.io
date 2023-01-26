@@ -7,7 +7,7 @@ body {
   background: #f9f9f9;
   font-size: 16px;
   font-family: "Raleway", sans-serif;
-  
+
   height: 100vh;
   display: grid;
   place-items: center;
@@ -119,50 +119,51 @@ img {
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
-.carou{
-    position: relative;
+.carou {
+  position: relative;
 }
 
-.carou__container{
-    transition: transform 0.3s;
-    transform: translate3d(0, 0, 0);
+.carou__container {
+  transition: transform 0.3s;
+  transform: translate3d(0, 0, 0);
 }
 
-.carou__container::after{
-    width: 100%;
-    content:'';
-    clear: both;
-    display: table;
+.carou__container::after {
+  width: 100%;
+  content: "";
+  clear: both;
+  display: table;
 }
 
-.carou__item{
-    float: left;
-    text-align: center;
+.carou__item {
+  float: left;
+  text-align: center;
 }
 
-.caroussel__next, .caroussel__previous{
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background: #FFF center center no-repeat;
-    background-size: 20px 20px;
-    border-radius: 50%;
-    top: 50%;
-    margin-top: -20px;
-    right: 20px;
-    box-shadow: 0 15px 35px #3232321a,0 5px 15px #0000001a;
-    cursor: pointer;
-    transition: transform 0.3s;
+.caroussel__next,
+.caroussel__previous {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #fff center center no-repeat;
+  background-size: 20px 20px;
+  border-radius: 50%;
+  top: 50%;
+  margin-top: -20px;
+  right: 20px;
+  box-shadow: 0 15px 35px #3232321a, 0 5px 15px #0000001a;
+  cursor: pointer;
+  transition: transform 0.3s;
 }
 
-.caroussel__next:hover, .caroussel__previous:hover{
-    transform: scale(1.2);
-
+.caroussel__next:hover,
+.caroussel__previous:hover {
+  transform: scale(1.2);
 }
 
-.caroussel__previous{
-    right: auto;
-    left: 20px;
+.caroussel__previous {
+  right: auto;
+  left: 20px;
 }
 
 /* MARKETING CONTENT
