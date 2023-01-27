@@ -6,14 +6,19 @@
   background-repeat: no-repeat;
 }
 
-@media (min-width: 40em) {
-  .zone {
-    padding-top: 12em;
-  }
+.zone {
+  padding-top: 4em;
 }
 
-@media (min-width: 62em) {
-  .zone {
-    padding-top: 8em;
-  }
+.bouton {
+  background-color: #48065e;
+  box-shadow: 0 0 1em white;
+}
+
+.footer {
+  position: fixed;
+}
+
+.text-color-personalized {
+  color: #340444;
 }

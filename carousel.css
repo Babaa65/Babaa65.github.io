@@ -10,17 +10,21 @@ body {
 }
 
 @media (min-width: 40em) {
-  .container {
+  .responsive-sizing {
     margin-top: 10px;
   }
 }
 
 @media (min-width: 62em) {
-  .container {
+  .responsive-sizing {
     margin-top: 10px;
     width: 60%;
     height: auto;
   }
+}
+
+.bg-personalized {
+  background-color: #660d83;
 }
 
 .card {
@@ -72,8 +76,11 @@ body {
 .content-image {
   width: 100%;
 }
-img {
-  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+.images_recette {
+  width: 60%;
+}
+.images_recette:hover {
+  box-shadow: 0 0 1em #48065e;
   border-radius: 5px;
 }
 .content-legend {
@@ -162,10 +169,10 @@ img {
   transform: scale(1.2);
 }
 
-.caroussel__next--hidden, .caroussel__previous--hidden{
+.caroussel__next--hidden,
+.caroussel__previous--hidden {
   opacity: 0;
 }
-
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
