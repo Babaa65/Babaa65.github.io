@@ -9,7 +9,7 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-@media (min-width: 40em) {
+@media (max-width: 40em) {
   .responsive-sizing {
     margin-top: 10px;
   }
@@ -122,6 +122,24 @@ body {
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
+.slider {
+  overflow: hidden;
+}
+
+@media (max-width: 40em) {
+  .slide_image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 62em) {
+  .slide_image {
+    width: 70%;
+    height: auto;
+  }
+}
+
 .carou {
   position: relative;
 }
@@ -148,7 +166,7 @@ body {
   position: absolute;
   width: 40px;
   height: 40px;
-  background: #fff center center no-repeat;
+  background: #000 center center no-repeat;
   background-size: 20px 20px;
   border-radius: 50%;
   top: 50%;
