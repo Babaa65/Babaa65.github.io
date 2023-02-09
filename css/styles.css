@@ -15,6 +15,19 @@
   box-shadow: 0 0 1em white;
 }
 
+.scrolldown {
+  margin-top: 25%;
+}
+
+.bi-caret-down {
+  color: white;
+  font-size: 50px;
+}
+
+.bi-caret-down:hover {
+  color: #660066;
+}
+
 .footer {
   position: fixed;
 }
