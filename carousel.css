@@ -126,7 +126,7 @@ body {
   overflow: hidden;
 }
 
-@media (max-width: 40em) {
+@media (max-width: 62em) {
   .slide_image {
     width: 100%;
     height: auto;
