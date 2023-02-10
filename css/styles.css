@@ -6,6 +6,24 @@
   background-repeat: no-repeat;
 }
 
+.header_recette {
+  min-height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.middle {
+  padding-top: 4em;
+}
+
+.header_image {
+  padding: 4em;
+  background-image: url("../images/header.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
 .zone {
   padding-top: 4em;
 }
@@ -13,6 +31,11 @@
 .bouton {
   background-color: #48065e;
   box-shadow: 0 0 1em white;
+}
+
+.btnInscription {
+  background-color: #48065e;
+  color: white;
 }
 
 .scrolldown {

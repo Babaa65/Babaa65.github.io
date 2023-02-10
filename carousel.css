@@ -23,6 +23,12 @@ body {
   }
 }
 
+a {
+  color: #48065e;
+}
+a:hover {
+  color: #660066;
+}
 .bg-personalized {
   background-color: #660d83;
 }
@@ -75,13 +81,11 @@ body {
 }
 .content-image {
   width: 100%;
-}
-.images_recette {
-  width: 60%;
+  margin: 5px;
 }
 .images_recette:hover {
   box-shadow: 0 0 1em #48065e;
-  border-radius: 5px;
+  margin: 5px;
 }
 .content-legend {
   text-align: center;
