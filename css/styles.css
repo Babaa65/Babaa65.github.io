@@ -58,3 +58,27 @@
 .text-color-personalized {
   color: #340444;
 }
+
+.dot {
+  height: 200px;
+  width: 200px;
+  background-color: #660066;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot:hover {
+  box-shadow: 0 0 1em #48065e;
+}
+
+.recette_circle {
+  position: relative;
+}
+
+.recette_text {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
