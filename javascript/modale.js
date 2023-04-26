@@ -1,4 +1,5 @@
 //ce fonctionnement est utilisé pour montrer la modale une seule fois par session
+//elle apparaît dans la page avec un délai de 5sec
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 
 $(document).ready(async function () {
